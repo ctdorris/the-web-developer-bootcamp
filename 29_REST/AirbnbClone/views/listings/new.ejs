@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Listing</title>
+</head>
+<body>
+
+    <h1>Make a new listing</h1>
+    <form action="/listings" method="post">
+        <section>
+            <label for="hostname">Enter Host Name:</label>
+            <input type="text" id="hostname" placeholder="Host Name" name="hostname">
+        </section>
+        <section>
+            <label for="listing">Listing Title</label>
+            <br>
+            <input type="text">
+        </section>
+        <button>Submit</button>
+    </form>
+    <a href="/comments">Back to Index</a>
+    
+</body>
+</html>
