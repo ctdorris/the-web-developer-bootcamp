@@ -22,8 +22,9 @@
             <% }%>
     </ul>
     <a href="/products/new">New Product</a>
-    <% if(category) !== %> 
-    <a href="/products">All Products</a>
+    <%if(category !=='All' ) {%>
+        <a href="/products">All Products</a>
+        <% } %>
 
 </body>
 
